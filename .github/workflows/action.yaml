@@ -15,5 +15,5 @@ jobs:
           curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
-          https://api.github.com/repos/<owner>/<repoA>/dispatches \
+          https://api.github.com/repos/shrey1110/Arintra/dispatches \
           -d '{"event_type":"triggered_by_repo_b"}'
